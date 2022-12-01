@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="YANKI - брендовый универсальный магазин одежды. Товары на любой вкус!">
+  <link rel="stylesheet" href="css/normalizez.css">
+  <link rel="stylesheet" href="css/resets.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+  <title>YANKI - брендовая одежда на любой выбор!</title>
+</head>
+<body>
+  <!-- Первая секция -->
+  
+  <section class="main-section">
+    <!-- Реализация поиска -->
+    <div class="search"></div>
+
+    <div class="main-section__container container">
+      <!-- Логотип -->
+      <header class="main-section__header header header-width-small">
+        <a href="#"><img class="header__logo" src="img/logo/YANKI.svg" alt=""></a>
+      </header>
+
+      <div class="main-section__header-content header-content">
+        <div class="header-content__wrap">
+          <!-- Бургер -->
+          <div class="header-content__burger burger">
+            <span class="burger__span burger__span-white"></span>
+            <span class="burger__span burger__span-white"></span>
+            <span class="burger__span burger__span-white"></span>
+          </div>
+
+          <nav class="main-section__menu-hidden menu-hidden">
+            <ul class="nav-menu__list">
+              <li class="nav-menu__list-item list-item">
+                <a class="list-item__link list-item__link_white f14"href="#">оплата и доставка</a>
+              </li>
+              <li class="nav-menu__list-item list-item">
+                <a class="list-item__link list-item__link_white f14" href="#">условия возврата</a>
+              </li>
+              <li class="nav-menu__list-item list-item">
+                <a class="list-item__link list-item__link_white f14" href="#">доставка</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Навигационное меню -->
+          <nav class="main-section__nav nav-menu">
+            <ul class="nav-menu__list">
+              <li class="nav-menu__list-item">
+                <a class="list-item__link list-item__link_white" href="#">new</a>
+              </li>
+              <li class="nav-menu__list-item">
+                <a class="list-item__link list-item__link_white" href="#">каталог</a>
+              </li>
+              <li class="nav-menu__list-item">
+                <a class="list-item__link list-item__link_white" href="#">о нас</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="main-section__lang-currency-icons lang-currency-icons">
+          <!-- Переключатель языков -->
+          <div class="main-section__lang lang-currency">
+            <ul class="lang-currency__list">
+              <li class="lang-currency__list-item ru">
+                <a class="list-item__link list-item__link_white" href="#">ru</a>
+              </li>
+              <li class="lang-currency__list-item uah">
+                <a class="list-item__link list-item__link_white" href="#">uah</a>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Выпадающий список языков -->
+          <div class="main-section__lang lang-currency__active">
+            <ul class="lang-currency__active-list">
+              <hr class="lang-currency__active-hr">
+              <li class="lang-currency__active-list-item">
+                <a class="lang-currency__active-link list-item__link_white" href="#">ua</a>
+              </li>
+              
+              <hr class="lang-currency__active-hr">
+              <li class="lang-currency__active-list-item">
+                <a class="lang-currency__active-link list-item__link_white" href="#">en</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Выпадающий список валют -->
+          <div class="main-section__lang lang-currency__active lang-currency__active_right">
+            <ul class="lang-currency__active-list lang-currency__active-list_width">
+              <hr class="lang-currency__active-hr">
+              <li class="lang-currency__active-list-item">
+                <a class="lang-currency__active-link list-item__link_white" href="#">usd</a>
+              </li>
+              
+              <hr class="lang-currency__active-hr">
+              <li class="lang-currency__active-list-item">
+                <a class="lang-currency__active-link list-item__link_white" href="#">eur</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Пользовательские иконки -->
+          <div class="main-section__icons icon">
+            <div class="icon-item-search">
+              <div class="icon-item "><img src="icons/search.svg" alt="поиск"></div>
+              <div class="search__block">
+                <input type="text"  placeholder="Введите ваш запрос" class="search__block-input">
+                <img src="icons/search_small.png" alt="Поиск" class="search__block-icon">
+              </div>
+            </div>
+            
+            
+            <div class="icon-item"><img src="icons/personal-area.svg" alt="личный кабинет"></div>
+            <div class="icon-item"><img src="icons/heart.svg" alt="сердце"></div>
+            <div class="icon-item"><img src="icons/basket.svg" alt="корзина"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Тайтл -->
+      <div class="main-section__title title">
+        <h1 class="title__h1">Новая коллекция<h1/>
+        <hr class="title__h1-hr"/>
+        <p class="title__h2">смотреть новинки</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Вторая секция -->
+  <section class="category-section">
+    <div class="category-section__container container">
+      <!-- Основной блок -->
+      <main class="category-section__main">
+        <!-- Заголовок -->
+        <h2 class="category-section__title">Категории</h2>
+        
+        <!-- Слайдер -->
+        <div class="category-section__box-slider box">
+          <!-- Стрелка слева -->
+          <div class="box__arrow-left">
+            <span class="box__arrow-left-item"></span>
+          </div>
+
+          <!-- Стрелка справа -->
+          <div class="box__arrow-right">
+            <span class="box__arrow-right-item"></span>
+          </div>
+          
+          <!-- Элементы бокса -->
+          <div class="box-item box-item_hidden">
+            <img class="box-item__img" src="img/category/test.jpg" alt="Шубы">
+            <div class="box-item__rect-blur"></div>
+            <p class="box-item__text">Шубы</p>
+          </div>
+
+          <div class="box-item box-item_hidden">
+            <img class="box-item__img" src="img/category/test2.jpg" alt="Шубы">
+            <div class="box-item__rect-blur"></div>
+            <p class="box-item__text">Шубы</p>
+          </div>
+
+          <div class="box-item hidden-1024">
+            <img class="box-item__img" src="img/category/jackets.jpg" alt="Куртки">
+            <div class="box-item__rect-blur"></div>
+            <p class="box-item__text">Куртки</p>
+          </div>
+          <div class="box-item">
+            <img class="box-item__img" src="img/category/coat.jpg" alt="Пальто">
+            <div class="box-item__rect-blur"></div>
+            <p class="box-item__text">Пальто</p>
+          </div>
+          <div class="box-item">
+            <img class="box-item__img" src="img/category/fur-coats.jpg" alt="Шубы">
+            <div class="box-item__rect-blur"></div>
+            <p class="box-item__text">Шубы</p>
+          </div>
+          <div class="box-item">
+            <img class="box-item__img" src="img/category/parka.jpg" alt="Парки">
+            <div class="box-item__rect-blur"></div>
+            <p class="box-item__text">Парки</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </section>
+
+
+  <!-- Третья секция -->
+  <section class="contacts-section">
+    <div class="contacts-section__container container">
+      <h3 class="contacts-section__title">Узнайте первым о новинках</h3>
+    
+      <!-- Форма обратной связи -->
+      <div class="contacts-section__feedback feedback">
+        <form class="feedback__form" action="#">
+          <input class="feedback__form-input" type="email" placeholder="Ваш e-mail*"/>
+          <button class="feedback__form-button">Подписаться</button>
+        </form>
+        <p class="contacts-section__text">Нажимая на кнопку «Подписаться», я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с условиями конфиденциальности.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <section class="footer-section">
+    <div class="footer-section__container container">
+      <footer class="footer-section__block footer-block">
+        <div class="footer-block-item">
+          <h3 class="footer-block-item__title">компания</h3>
+          <a class="footer-block-item__link" href="#">О нас</a>
+          <a class="footer-block-item__link" href="#">Контакты</a>
+        </div>
+        <div class="footer-block-item">
+          <h3 class="footer-block-item__title">полезное</h3>
+          <a class="footer-block-item__link" href="#">Оплата и доставка</a>
+          <a class="footer-block-item__link" href="#">Условия возврата</a>
+          <a class="footer-block-item__link" href="#">Бонусная система</a>
+        </div>
+        <div class="footer-block-item">
+          <h3 class="footer-block-item__title">покупателю</h3>
+          <a class="footer-block-item__link" href="#">Избранное</a>
+          <a class="footer-block-item__link" href="#">Публичная офёрта</a>
+          <a class="footer-block-item__link" href="#">Политика конфиденциальности</a>
+        </div>
+        <div class="footer-block-item">
+          <h3 class="footer-block-item__title">контакты</h3>
+          <div class="footer-block-item__socials">
+            <img src="icons/instagram.png" alt="Instagram" class="footer-block-item__socials-instagram">
+            <img src="icons/telegram.png" alt="Telegram" class="footer-block-item__socials-telegram">
+          </div>
+          <a class="footer-block-item__link" href="#">О нас</a>
+          <a class="footer-block-item__link" href="#">Контакты</a>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <!-- <input type="text" name="f" id="search">
+  <button id="close">Закрыть</button> -->
+</body>
+</html>
